@@ -1,0 +1,89 @@
+.details-container {
+    width: 80%;
+    height: 100vh;
+    color: cornsilk;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.main-info {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    /* background-color: rgb(0, 0, 0, 0.7); */
+    background-color: #ffffff10;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    margin-left: 0 !important;
+}
+
+.info {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    width: 65%;
+    height: auto;
+}
+
+.info div {
+    margin-bottom: 10px;
+}
+
+.info p {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.details-genres {
+    display: flex;
+    flex-direction: row;
+}
+
+.details-genres p {
+    margin: 0;
+}
+
+.poster {
+    height: 75%;
+    margin: 20px 0;
+    margin-left: 50px;
+}
+
+.poster img {
+    object-fit: contain;
+    width: 100%;
+    height: 400px;
+}
+
+.add-remove-btn {
+    border: 2px solid rgb(214, 226, 36);
+    transition: all .3s ease;
+    padding: 5px;
+    background-color: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: rgb(214, 226, 36);
+    width: 30%;
+}
+
+.add-remove-btn:hover {
+    border: 2px solid black;
+    background-color: rgb(214, 226, 36);
+    color: black;
+}
+
+.add-remove-btn:active {
+    opacity: .5;
+}

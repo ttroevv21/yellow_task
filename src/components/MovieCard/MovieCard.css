@@ -1,0 +1,38 @@
+.movie-info {
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer ;
+    height: 400px;
+}
+
+.movie-info p {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.movie-info:hover {
+    opacity: .6;
+}
+
+.movie-img {
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.genre-title {
+    margin-right: 10px;
+    font-size: 12px;
+    opacity: .7;
+}
